@@ -1,0 +1,11 @@
+------Web Development------
+Main goal is working with HTTP
+HTTP: stateless protocol
+As web developers, spend all our time managing statelessness
+Understanding HTTP, and learning how to process requests and responses is the goal
+
+Choices
+1.  Not using OOP to manage code in solutions; goal is HTTP development
+2.  Not including databases in this section; Using session instead, cookie-backed.  Reason is that many people get stuck on db concepts. Relational dbs are the next course
+
+TIP: Be creative and have fun

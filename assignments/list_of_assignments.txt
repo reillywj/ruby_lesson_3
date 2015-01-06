@@ -1,0 +1,22 @@
+ 1. Read HTTP Book
+ 2. HTML and CSS
+ 3. REview Sinatra tutorial
+ 4. Diagram: Request/Response MVC
+ 5. Download Project Template
+ 6. Fix for Chrome
+ 7. Heroku Cedar-14
+ 8. Render Text
+ 9. Render Template
+10. Twitter Bootstrap Docs
+11. Designing the game
+12. Push to Github
+13. Set name form
+14. Set up initial game
+15. Player Turn
+16. Use helpers to calculate total
+17. Use helper to display card image
+18. Dealer Turn
+19. Dealer Stays
+20. Hide dealer's first card
+21. Improve styling
+22. Improve the workflow

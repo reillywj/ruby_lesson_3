@@ -1,0 +1,19 @@
+How to handle a response back to the client, once in your sinatra app:
+
+
+require 'rubygems'
+require 'sinatra'
+
+set :sessions, true
+
+get 'inline' do
+  "Hi, directly from the action!"
+end
+
+
+get '/template' do
+  erb :symbol_of_template_filename
+end
+
+
+

@@ -1,0 +1,6 @@
+Two ways to run:
+ruby filename.rb
+-but will have to reload each time you make a change
+
+Can use the following to not have to reload everytime:
+shotgun filename.rb

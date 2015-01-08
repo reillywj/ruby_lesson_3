@@ -1,0 +1,56 @@
+1/8/2015
+Tools of Modern Web Development
+
+-juggle many layers of technologies, all with different syntax and behaviors, and understand how they integrate with each other
+
+-Other things to be aware of:
+  -best practices
+  -security concerns
+  -browser compatibility
+  -mobile OSs
+
+
+-Front-End
+  -javascript
+    -frameworks to be aware of (jQuery, prototype)
+    -MVCs (writing rich client side javascript; ember)
+    -ajax
+    -coffeescript (pre-processor -> write in coffeescript and can convert to any framework of javascript)
+  -HTML
+    -ERB (compile down to HTML)
+    -HAML
+  -CSS
+    -SASS: lets write CSS in SASS language and processes down to CSS
+  -mobile
+
+  -Middleware Set of Tech (aka "server side code")
+    -APIs
+    -URLs
+    -REST
+    -request/response processing
+    -security
+      -(xss, crsf, code injection, etc.)
+
+-Backend
+  -database
+    -relational
+      -MySQL
+      -Postgres
+    -nosql
+      -Mongoldb
+  -web services
+    -REST
+    -SOAP
+
+-Miscellaneous
+  -deployment
+  -background processing
+  -git (code versioning)
+  -bundler
+  -rvm (separates Ruby installations)
+
+
+Figuring out entire landscape and figuring out which I prefer and what I wan to use
+Lots of choices to pick the best tools for the job
+However, so much technology makes it difficult to choose and stay ahead or on top of things
+

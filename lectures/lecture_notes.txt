@@ -7,17 +7,47 @@ Setting Ruby aside and focusing on Web Development basics
 
 Agenda:
 -HTTP
-  Request
-    GET: link or type into address bar
+  Request: Initiated by the user (think of user with browser, can be others)
+    -GET: link or type into address bar
       -Designed to retrieve information
       -Good for submitting parameters (?some_para=true&another_param=50...)
       -parameters are exposed in URL
       -smaller payload
-    POST: form submission usually
+    -POST: form submission usually
       -forms are POSTs, parameters are submitted in the body
         a) Has a larger payload (=> value of the parameters; can also be attachments)
         b) More secure
-  Response
+
+    -Components of Request
+      -HTTP verb/method (GET, POST, others)
+      -URL
+      -parameters
+      -Lots of other stuff
+
+  Response: What your application returns back
+    -Status-code
+      -200: ok -> vast majority of your life you've seen 200 status responses
+      -302: redirect
+      -304: Not modified, from cache(usually if already seen image before)
+      -404: file not found
+      -500: general error
+
+    -Components
+      -status code
+      -payload (HTML, JSON, XML, etc.)
+      -redirect comes with another URL, Browser must know how to handle the redirect; most Browsers will figure out if happen to be in some redirect error loop and let you know (limit is ~= 10 to 15)
+      -At some point will get to 200 after redirect
+
+  Statelessness of HTTP
+    -No such thing as a state between requests
+    -Every click and every action is a new request/response cycle
+    -Between every request, application must reconstitute the world from the database or some sort of persistent storage (caching mechanism)
+    -This is why web development is hard
+    -Also why many security issues
+    -Nothing will work if Cookies are disabled (so any form of authentication is required)
+    
+
+
 
 
   Web application v. Website

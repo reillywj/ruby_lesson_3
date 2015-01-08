@@ -2,7 +2,10 @@ require 'rubygems'
 require 'sinatra'
 require 'pry'
 
-set :sessions, true
+# set :sessions, true
+use Rack::Session::Cookie, :key => 'rack.session',
+                          :path => '/',
+                          :secret => 'my_super_secret_string1988$&**'
 
 
 get '/' do
@@ -25,6 +28,17 @@ get '/game' do
   session[:player_cards] << session[:deck].pop
   session[:dealer_cards] << session[:deck].pop
   erb :game
+end
+
+
+
+get '/inline' do
+  "Hi, directly from the action!"
+end
+
+get '/template' do
+  erb :my_template #references the my_template.erb file which has html
+  
 end
 
 

@@ -1,0 +1,49 @@
+#lecture_notes.txt
+
+Part I
+Must be able to read and decipher OO code to truly understand Rails
+
+Setting Ruby aside and focusing on Web Development basics
+
+Agenda:
+-HTTP
+  Request
+    GET: link or type into address bar
+      -Designed to retrieve information
+      -Good for submitting parameters (?some_para=true&another_param=50...)
+      -parameters are exposed in URL
+      -smaller payload
+    POST: form submission usually
+      -forms are POSTs, parameters are submitted in the body
+        a) Has a larger payload (=> value of the parameters; can also be attachments)
+        b) More secure
+  Response
+
+
+  Web application v. Website
+  -Application
+    -handles the requests and responses
+    -has database
+  -Site
+    -Static html
+    -no database
+    -rendering a bunch of static html
+    -requests/responses being handled by the server and not the application
+-MVC
+
+-Kicking off our project w/ Sinatra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
